@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="">
+        <ul>
+            <li><a id="sobre" href="">Sobre</a></li>s
+            <li><a href="">Contato</a></li>
+            <li id="borda"><a href="">Home</a></li>
+            
+        </ul>
+    </header>
+    <main class="flex flex-center flex-column">
+        
+        <article class="flex flex-center flex-column">
+        <div class="flex flex-center flex-column">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             At harum voluptate adipisci suscipit enim, fugiat, quos debitis
+              asperiores deserunt officia magnam. Aliquid dolores harum, nihil
+               vero velit incidunt accusantium quo.
+        </div>
+        <form class="flex flex-center" action="contrato" method="post">
+            <label for=""><strong>Email:</strong> </label>
+            <input type="email" required name="email" value="Digite seu email">
+            <input id="borda" type="submit" name="enviar" value="Enviar">
+
+        </form>
+        </article>
+    </main>
+    <footer class="flex flex-center flex-column">
+        by TI - ACADEMY
+    </footer>
+</body>
+</html>
